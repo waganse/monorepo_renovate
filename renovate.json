@@ -18,7 +18,7 @@
       "paths": "packages/ui/*",
       "matchFileNames": ["packages/ui/package.json"],
       "commitMessagePrefix": "chore(deps):",
-      "labels": ["Package: ui"]
+      "addLabels": ["Package: ui"]
     }
   ],
   "ignoreDeps": [],
