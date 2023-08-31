@@ -7,14 +7,12 @@
   "prConcurrentLimit": 10,
   "packageRules": [
     {
-      "groupName": "web-app",
       "paths": "packages/web-app/*",
       "matchFileNames": ["packages/web-app/package.json"],
       "commitMessagePrefix": "chore(deps):",
       "addLabels": ["Package: web-app"]
     },
     {
-      "groupName": "ui",
       "paths": "packages/ui/*",
       "matchFileNames": ["packages/ui/package.json"],
       "commitMessagePrefix": "chore(deps):",
