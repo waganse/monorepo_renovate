@@ -11,7 +11,7 @@
       "paths": "packages/web-app/*",
       "matchFileNames": ["packages/web-app/package.json"],
       "commitMessagePrefix": "chore(deps):",
-      "labels": ["Package: web-app"]
+      "addLabels": ["Package: web-app"]
     },
     {
       "groupName": "ui",
