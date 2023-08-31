@@ -8,12 +8,14 @@
   "packageRules": [
     {
       "paths": "packages/web-app/*",
+      "branchPrefix": "renovate/web-app-",
       "matchFileNames": ["packages/web-app/package.json"],
       "commitMessagePrefix": "chore(deps:web-app):",
       "addLabels": ["Package: web-app"]
     },
     {
       "paths": "packages/ui/*",
+      "branchPrefix": "renovate/ui-",
       "matchFileNames": ["packages/ui/package.json"],
       "commitMessagePrefix": "chore(deps-ui):",
       "addLabels": ["Package: ui"]
