@@ -8,11 +8,13 @@
   "packageRules": [
     {
       "groupName": "web-app/eslint",
-      "paths": "packages/web-app/*"
+      "paths": "packages/web-app/*",
+      "matchFileNames": ["packages/web-app/package.json"]
     },
     {
       "groupName": "ui/eslint",
-      "paths": "packages/ui/*"
+      "paths": "packages/ui/*",
+      "matchFileNames": ["packages/ui/package.json"]
     }
   ],
   "ignoreDeps": [],
