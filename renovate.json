@@ -9,13 +9,13 @@
     {
       "paths": "packages/web-app/*",
       "matchFileNames": ["packages/web-app/package.json"],
-      "commitMessagePrefix": "chore(deps):",
+      "commitMessagePrefix": "chore(deps:web-app):",
       "addLabels": ["Package: web-app"]
     },
     {
       "paths": "packages/ui/*",
       "matchFileNames": ["packages/ui/package.json"],
-      "commitMessagePrefix": "chore(deps):",
+      "commitMessagePrefix": "chore(deps-ui):",
       "addLabels": ["Package: ui"]
     }
   ],
