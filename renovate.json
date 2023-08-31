@@ -18,7 +18,8 @@
       "branchPrefix": "renovate/ui-",
       "matchFileNames": ["packages/ui/package.json"],
       "commitMessagePrefix": "chore(deps-ui):",
-      "addLabels": ["Package: ui"]
+      "addLabels": ["Package: ui"],
+      "ignoreDeps": ["typescript"]
     }
   ],
   "ignoreDeps": [],
