@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "rangeStrategy": "pin",
+  "labels": ["Dependencies"],
+  "dependencyDashboard": true,
+  "prConcurrentLimit": 10,
+  "packageRules": [
+    {
+      "groupName": "web-app/eslint",
+      "paths": "packages/web-app/*"
+    },
+    {
+      "groupName": "ui/eslint",
+      "paths": "packages/ui/*"
+    }
+  ],
+  "ignoreDeps": [],
+  "ignorePaths": []
+}
