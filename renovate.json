@@ -7,14 +7,16 @@
   "prConcurrentLimit": 10,
   "packageRules": [
     {
-      "groupName": "web-app/eslint",
+      "groupName": "web-app",
       "paths": "packages/web-app/*",
-      "matchFileNames": ["packages/web-app/package.json"]
+      "matchFileNames": ["packages/web-app/package.json"],
+      "commitMessagePrefix": "(deps:web-app)"
     },
     {
-      "groupName": "ui/eslint",
+      "groupName": "ui",
       "paths": "packages/ui/*",
-      "matchFileNames": ["packages/ui/package.json"]
+      "matchFileNames": ["packages/ui/package.json"],
+      "commitMessagePrefix": "(deps:ui)"
     }
   ],
   "ignoreDeps": [],
