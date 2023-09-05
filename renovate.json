@@ -7,14 +7,12 @@
   "prConcurrentLimit": 10,
   "packageRules": [
     {
-      "paths": "packages/*",
       "branchPrefix": "renovate/web-",
       "matchFileNames": ["packages/ui/package.json", "packages/web-app/package.json"],
       "commitMessagePrefix": "chore(deps):",
       "addLabels": ["Package: web"]
     },
     {
-      "paths": "packages/mobile-app/*",
       "branchPrefix": "renovate/mobile-app-",
       "matchFileNames": ["packages/mobile-app/package.json"],
       "commitMessagePrefix": "chore(deps):",
