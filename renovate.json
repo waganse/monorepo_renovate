@@ -7,18 +7,18 @@
   "prConcurrentLimit": 10,
   "packageRules": [
     {
-      "paths": "packages/web-app/*",
-      "branchPrefix": "renovate/web-app-",
-      "matchFileNames": ["packages/web-app/package.json"],
-      "commitMessagePrefix": "chore(deps:web-app):",
-      "addLabels": ["Package: web-app"]
+      "paths": "packages/*",
+      "branchPrefix": "renovate/web-",
+      "matchFileNames": ["packages/ui/package.json", "packages/web-app/package.json"],
+      "commitMessagePrefix": "chore(deps):",
+      "addLabels": ["Package: web"]
     },
     {
-      "paths": "packages/ui/*",
-      "branchPrefix": "renovate/ui-",
-      "matchFileNames": ["packages/ui/package.json"],
-      "commitMessagePrefix": "chore(deps-ui):",
-      "addLabels": ["Package: ui"],
+      "paths": "packages/mobile-app/*",
+      "branchPrefix": "renovate/mobile-app-",
+      "matchFileNames": ["packages/mobile-app/package.json"],
+      "commitMessagePrefix": "chore(deps):",
+      "addLabels": ["Package: mobile-app"],
       "ignoreDeps": ["typescript"]
     }
   ],
