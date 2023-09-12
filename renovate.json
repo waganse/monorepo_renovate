@@ -5,16 +5,17 @@
   "labels": ["Dependencies"],
   "dependencyDashboard": true,
   "prConcurrentLimit": 10,
-  "commitMessagePrefix": "chore(deps):",
   "packageRules": [
     {
       "branchPrefix": "renovate/web-",
       "matchFileNames": ["packages/ui/package.json", "packages/web-app/package.json"],
+      "commitMessagePrefix": "[web] chore(deps):",
       "addLabels": ["Package: web"]
     },
     {
       "branchPrefix": "renovate/mobile-app-",
       "matchFileNames": ["packages/mobile-app/package.json"],
+      "commitMessagePrefix": "[mobile-app] chore(deps):",
       "addLabels": ["Package: mobile-app"],
       "ignoreDeps": ["typescript"]
     }
