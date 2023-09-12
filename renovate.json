@@ -9,13 +9,13 @@
     {
       "branchPrefix": "renovate/web-",
       "matchFileNames": ["packages/ui/package.json", "packages/web-app/package.json"],
-      "commitMessagePrefix": "[web] chore(deps):",
+      "commitMessagePrefix": "[web]",
       "addLabels": ["Package: web"]
     },
     {
       "branchPrefix": "renovate/mobile-app-",
       "matchFileNames": ["packages/mobile-app/package.json"],
-      "commitMessagePrefix": "[mobile-app] chore(deps):",
+      "commitMessagePrefix": "[mobile-app]",
       "addLabels": ["Package: mobile-app"],
       "ignoreDeps": ["typescript"]
     }
