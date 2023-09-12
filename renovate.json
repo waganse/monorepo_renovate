@@ -15,7 +15,7 @@
     {
       "branchPrefix": "renovate/mobile-app-",
       "matchFileNames": ["packages/mobile-app/package.json"],
-      "commitMessagePrefix": "[mobile-app]{{{commitMessagePrefix}}}",
+      "commitMessagePrefix": "{{commitMessagePrefix}}",
       "addLabels": ["Package: mobile-app"],
       "ignoreDeps": ["typescript"]
     }
