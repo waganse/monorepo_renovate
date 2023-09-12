@@ -9,7 +9,7 @@
     {
       "branchPrefix": "renovate/web-",
       "matchFileNames": ["packages/ui/package.json", "packages/web-app/package.json"],
-      "commitMessagePrefix": "[web]",
+      "commitMessagePrefix": "[webb]",
       "addLabels": ["Package: web"]
     },
     {
