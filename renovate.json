@@ -7,19 +7,16 @@
   "prConcurrentLimit": 10,
   "packageRules": [
     {
-      "baseBranches": ["renovate-web"],
       "branchPrefix": "renovate/web-",
       "matchFileNames": ["packages/ui/package.json", "packages/web-app/package.json"],
       "commitMessageSuffix": "[web]",
       "addLabels": ["Package: web"]
     },
     {
-      "baseBranches": ["renovate-mobile-app"],
       "branchPrefix": "renovate/mobile-app-",
       "matchFileNames": ["packages/mobile-app/package.json"],
       "commitMessageSuffix": "[mobile-app]",
-      "addLabels": ["Package: mobile-app"],
-      "ignoreDeps": ["typescript"]
+      "addLabels": ["Package: mobile-app"]
     }
   ],
   "ignoreDeps": [],
